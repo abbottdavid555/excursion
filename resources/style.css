@@ -1,16 +1,71 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: verdana;
+    color: white;
+
 }
 
-.body {
+body {
     background-color: black;
 }
 
-.h1 {
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin: 35px;
+    }
+
+a {
+    display: block;
+    text-align: center;
+    color: aquamarine;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.video {
+    display: block;
     text-align: center;
 }
 
-.a {
-    color: aquamarine;
+.personal .part1 {
+    font-size: 42px;
+    font-weight: 300;
+    text-align: center;
+    margin: 35px;
+}
+
+.personal .part2 {
+    text-align: center;
+    font-size: 21px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.personal img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.comingsoon img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+
+.comingsoon p {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 300;
+    margin: 35px;
+}
+
+.copyright p {
+    text-align: right;
+    color: gray;
 }
